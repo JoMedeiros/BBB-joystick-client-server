@@ -14,9 +14,9 @@ const char LEFT_KEY = 'a';
 const char RIGHT_KEY = 'd';
 const char NO_KEY = 'x';
 
-const char* POTENCI_PATH = "/sys/bus/iio/devices/iio:device0/in_voltage1_raw";
-const char* LDRESIS_PATH = "/sys/class/gpio/gpio66/value";
-const char* PBUTTON_PATH = "/sys/class/gpio/gpio67/value";
+const char* POTENCI_PATH = "../input_test/potenc";
+const char* LDRESIS_PATH = "../input_test/ldr";
+const char* PBUTTON_PATH = "../input_test/pb";
 
 const char* JOYSTICK_PATH = "/home/debian/josivan_e_natalia/t3_joystick/thread/joystick";
 
